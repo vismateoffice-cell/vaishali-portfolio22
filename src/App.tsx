@@ -31,7 +31,7 @@ export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [stickyNavbar, setStickyNavbar] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
-  const [portfolioFilter, setPortfolioFilter] = useState("all");
+  const [portfolioFilter, setPortfolioFilter] = useState("");
   const [lightboxItem, setLightboxItem] = useState<PortfolioItem | null>(null);
   const [loadedImages, setLoadedImages] = useState<Record<number, boolean>>({});
 
@@ -42,10 +42,16 @@ export default function App() {
       unique.set(item.category, item.categoryName);
     });
     return [
-      { tag: "all", label: "See All" },
       ...Array.from(unique.entries()).map(([tag, label]) => ({ tag, label }))
     ];
   }, []);
+
+  // Set default filter to first category
+  useEffect(() => {
+    if (categoriesList.length > 0 && portfolioFilter === "") {
+      setPortfolioFilter(categoriesList[0].tag);
+    }
+  }, [categoriesList]);
 
   // Timer Ref for fakeLoader cloning
   useEffect(() => {
