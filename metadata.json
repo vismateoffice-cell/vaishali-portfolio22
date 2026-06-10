@@ -1,0 +1,6 @@
+{
+  "name": "Vaishali Portfolio",
+  "description": "A highly polished, interactive personal portfolio website cloned from Vaishali Portfolio featuring modern layout, smooth animations, resume slides, filtering portfolio drawer, and contact portal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
