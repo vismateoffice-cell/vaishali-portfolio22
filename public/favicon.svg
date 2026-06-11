@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="12" fill="#0e0e10"/>
+  <!-- Pen tool / bezier pen icon -->
+  <path d="M32 8L44 44H20L32 8Z" stroke="#d4af37" stroke-width="3" stroke-linejoin="round" fill="none"/>
+  <circle cx="32" cy="8" r="3" fill="#d4af37"/>
+  <circle cx="20" cy="44" r="3" fill="#d4af37"/>
+  <circle cx="44" cy="44" r="3" fill="#d4af37"/>
+  <!-- Nib tip -->
+  <line x1="32" y1="44" x2="32" y2="56" stroke="#d4af37" stroke-width="3" stroke-linecap="round"/>
+  <path d="M28 56L32 60L36 56" stroke="#d4af37" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

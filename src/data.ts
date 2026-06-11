@@ -7,20 +7,12 @@ import { PortfolioItem, TimelineItem, SkillItem } from "./types";
 
 export const experienceData: TimelineItem[] = [
   {
-    title: "Pentagon Design",
-    subTitle: "Graphic Designer (2017 - 2019)",
+    title: "Invigorate Systems",
+    subTitle: "UI/UX Designer • 1+ Year",
   },
   {
-    title: "Animate Studio",
-    subTitle: "Graphic Designer (2015 - 2017)",
-  },
-  {
-    title: "Cute Studio",
-    subTitle: "Graphic Designer (2014 - 2015)",
-  },
-  {
-    title: "City Printing",
-    subTitle: "Graphic Designer (2013 - 2014)",
+    title: "Freelance Graphic Designer",
+    subTitle: "Branding, Social Media & Marketing Design • 1+ Year",
   },
 ];
 
